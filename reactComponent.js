@@ -45,7 +45,7 @@ var KsCompo = React.createClass(
                     {child.state.children}         
 
                     <br/>
-                </label>
+                </label>;
 
                 children[i] = label;
 
