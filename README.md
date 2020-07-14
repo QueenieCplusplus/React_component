@@ -4,6 +4,10 @@ self-defined components using propsTyps &amp; forEach loop&amp; transferPropsTo
 
 # func
 
+html 元素在 DOM 當中，並且附上了 onChange 的處理器 kHandler。
+
+    onChange = {this.state.kHandler}
+
 
 html tag 或稱元件或元素，提供了 onChange 方法，因為它是一個函數，所以透過 val: this.state.defaultVal 儲存了 defaultVal。
 
