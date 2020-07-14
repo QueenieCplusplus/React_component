@@ -60,3 +60,27 @@ html tag 或稱元件或元素，提供了 onChange 方法，因為它是一個�
  取值方法
  
             event.target.value
+            
+            
+ # forEach 迴圈
+ 
+                  React.Children.forEach(this.state.children, function(child, i){
+
+                    var label = 
+                    
+                        <label>
+
+                            {child.state.children}         
+
+                            <br/>
+                        </label>;
+                        
+
+                        children[i] = label;
+
+
+                    }.bind(this));
+                   
+                   
+
+
