@@ -55,4 +55,8 @@ html tag 或稱元件或元素，提供了 onChange 方法，因為它是一個�
                         onChange = {this.state.kHandler}
     
     
+ # event 事件
  
+ 取值方法
+ 
+            event.target.value
